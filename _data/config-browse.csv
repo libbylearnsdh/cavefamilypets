@@ -1,6 +1,7 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
 creator,Creator,,,
-subject,,true
+subject_pet,,true
+subject_people,,true
 location,,true
 identifier,,,true,Identifier

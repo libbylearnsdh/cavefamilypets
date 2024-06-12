@@ -3,6 +3,6 @@ title,true,true
 date,true,true
 creator,true,false
 description,true,true
-subject_pet,true,true
-subject_people,true,true
+subject_Pet,true,true
+subject_People,true,true
 location,true,false

@@ -4,18 +4,18 @@ layout: page
 ---
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 <div class="row">
-
+  {{content}}
   <div class="col-md-8">
 
     {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" %}
+    {% include index/carousel.html title="Sample Pet Photos" %}
     
   </div>
   <div class="col-md-4">  
 
     {% include index/time.html %}
 
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
+    {% include index/featured-terms.html field="subject_Pet" title="Top Subjects" btn-color="primary" %}
 
     {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
     
